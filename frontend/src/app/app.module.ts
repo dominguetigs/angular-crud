@@ -7,9 +7,10 @@ import { AngularMaterialModule } from './angular-material.module';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/template/header/header.component';
+import { FooterComponent } from './components/template/footer/footer.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent],
+  declarations: [AppComponent, HeaderComponent, FooterComponent],
   imports: [BrowserModule, BrowserAnimationsModule, AngularMaterialModule],
   providers: [],
   bootstrap: [AppComponent],
