@@ -14,8 +14,6 @@
 }
 
 .header .title-group {
-  display: flex;
-  align-items: center;
   padding-left: 24px;
 }
 
